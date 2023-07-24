@@ -1,0 +1,4 @@
+{
+  "extends": "@thilourenco/eslint-config/react"
+  // "extends": "@thilourenco/eslint-config/node"
+}

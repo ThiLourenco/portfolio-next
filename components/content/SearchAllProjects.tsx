@@ -155,7 +155,7 @@ const allProjectsInfo = [
   {
     id: '19',
     title: 'Store 88',
-    des: 'E-commerce de roupas moderno',
+    des: 'E-commerce moderno desenvolvido em NextJS 13',
     category: 'nextjs - typescript - tailwind',
     repo: 'https://github.com/ThiLourenco/e-commerce',
     link: 'https://e-commerce-thilourenco.vercel.app/',

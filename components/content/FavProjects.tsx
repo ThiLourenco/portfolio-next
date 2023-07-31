@@ -61,7 +61,7 @@ const Card = ({ image, title, category, repo, link }: CardProps) => {
         <Text className={classes.category} size="xs">
           {category}
         </Text>
-        <Title order={3} className={classes.title}>
+        <Title order={3} className={classes.title} size="xs">
           {title}
         </Title>
       </div>
@@ -131,25 +131,26 @@ const Card = ({ image, title, category, repo, link }: CardProps) => {
 
 const favProjects = [
   {
-    image: '',
-    title: 'E-commerce',
-    category: 'TypeScript - Nextjs - TailwindCSS - Sanity',
+    image:
+      'https://raw.githubusercontent.com/ThiLourenco/e-commerce/main/public/store.png?token=GHSAT0AAAAAACDGAEEAJEAINX3EL76LLBRIZGHFZKA',
+    title: '',
+    category: '',
     repo: 'https://github.com/ThiLourenco/e-commerce',
     link: 'https://e-commerce-thilourenco.vercel.app/',
   },
   {
     image:
       'https://thilourenco.dev.br/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FgCv97gwMRJaTLuqmjn3y&w=640&q=100',
-    title: 'Rentalx',
-    category: 'Nodejs - Postgres - Prisma - Docker',
+    title: '',
+    category: '',
     repo: 'https://github.com/ThiLourenco/rentalx',
     link: '',
   },
   {
     image:
       'https://thilourenco.dev.br/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2Fx2ctlyrgTRC91wCSK0dj&w=640&q=100',
-    title: 'Habit',
-    category: 'React - React Native - TypeScript - Nodejs',
+    title: '',
+    category: '',
     repo: 'https://github.com/ThiLourenco/habit',
     link: '',
   },

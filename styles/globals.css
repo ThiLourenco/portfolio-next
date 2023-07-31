@@ -222,13 +222,13 @@ table {
   z-index: -1;
   background: radial-gradient(
       circle at top left,
-      rgba(2, 255, 2, 0.22) 0%,
-      rgba(0, 0, 0, 0) 25%,
+      rgba(2, 255, 2, 0.12) 0%,
+      rgba(0, 0, 0, 0) 35%,
       rgba(128, 128, 128, 0) 100%
     ),
     radial-gradient(
       circle at 85% 30%,
-      rgba(0, 136, 255, 0.28) 0%,
+      rgba(0, 136, 255, 0.18) 0%,
       rgba(0, 0, 0, 0) 30%,
       rgba(128, 128, 128, 0) 15%
     );
@@ -237,14 +237,14 @@ table {
 @media (min-width: 900px) {
   .darkBackgroundCirclesColors {
     background: radial-gradient(
-        circle at 10% 60%,
-        rgba(2, 255, 2, 0.22) 0%,
-        rgba(0, 0, 0, 0) 25%,
+        circle at 10% 30%,
+        rgba(2, 255, 2, 0.12) 0%,
+        rgba(0, 0, 0, 0) 35%,
         rgba(128, 128, 128, 0) 100%
       ),
       radial-gradient(
         circle at 85% 30%,
-        rgba(0, 136, 255, 0.28) 0%,
+        rgba(0, 136, 255, 0.18) 0%,
         rgba(0, 0, 0, 0) 30%,
         rgba(128, 128, 128, 0) 25%
       );

@@ -131,8 +131,7 @@ const Card = ({ image, title, category, repo, link }: CardProps) => {
 
 const favProjects = [
   {
-    image:
-      'https://raw.githubusercontent.com/ThiLourenco/e-commerce/main/public/store.png?token=GHSAT0AAAAAACDGAEEAJEAINX3EL76LLBRIZGHFZKA',
+    image: 'https://portfolio-next-thilourenco.vercel.app/images/store.png',
     title: '',
     category: '',
     repo: 'https://github.com/ThiLourenco/e-commerce',

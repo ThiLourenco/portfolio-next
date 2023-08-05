@@ -13,10 +13,10 @@ export const ShowSkills = ({ skills }: { skills: string | string[] }) => {
         {skills.map((skill) => (
           <Badge
             key={skill}
-            color={resolvedTheme === 'dark' ? 'dark' : 'gray'}
-            size="lg"
-            radius="xs"
-            variant="filled"
+            color={resolvedTheme === 'dark' ? 'blue' : 'dark'}
+            size="sm"
+            radius="sm"
+            variant="outline"
           >
             {skill}
           </Badge>
@@ -27,10 +27,10 @@ export const ShowSkills = ({ skills }: { skills: string | string[] }) => {
 
   return (
     <Badge
-      color={resolvedTheme === 'dark' ? 'dark' : 'gray'}
-      size="lg"
-      radius="xs"
-      variant="filled"
+      color={resolvedTheme === 'dark' ? 'blue' : 'dark'}
+      size="sm"
+      radius="sm"
+      variant="outline"
     >
       {skills}
     </Badge>

@@ -57,8 +57,8 @@ export default function Contact() {
       <AnimationContainer customClassName="w-full mb-16 ">
         <TitleSectionPageContainer title="Contato" />
 
-        <p className="font-light text-lg text-gray-200 dark:text-zinc-400 mb-5">
-          Preencha os dados e deixe sua mensagem que entrarei em contato.
+        <p className="font-light text-lg text-gray-600 dark:text-gray-400 mb-5">
+          Preencha os dados e deixe sua mensagem
         </p>
         <div className="w-full flex justify-center items-center flex-col">
           <form
@@ -71,7 +71,7 @@ export default function Contact() {
                 Nome
               </label>
               <input
-                className="form-input w-full rounded p-3 text-base outline-none border bg-white dark:bg-black border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
+                className="form-input w-full rounded p-3 text-base outline-none border bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
                 placeholder="Nome"
                 type="text"
                 id="name"
@@ -87,7 +87,7 @@ export default function Contact() {
                 E-mail
               </label>
               <input
-                className="form-input w-full rounded p-3 text-base outline-none border bg-white dark:bg-black border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
+                className="form-input w-full rounded p-3 text-base outline-none border bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
                 placeholder="E-mail"
                 type="email"
                 id="email"
@@ -102,7 +102,7 @@ export default function Contact() {
                 Assunto
               </label>
               <input
-                className="form-input w-full rounded p-3 text-base outline-none border bg-white dark:bg-black border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
+                className="form-input w-full rounded p-3 text-base outline-none border bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
                 placeholder="Assunto"
                 type="subject"
                 id="subject"
@@ -117,7 +117,7 @@ export default function Contact() {
                 Mensagem
               </label>
               <textarea
-                className="form-input w-full h-32 rounded p-3 text-base outline-none border bg-white dark:bg-black border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
+                className="form-input w-full h-32 rounded p-3 text-base outline-none border bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
                 placeholder="Digite aqui a sua mensagem"
                 id="message"
                 {...register('message', { required: true })}
@@ -145,16 +145,14 @@ export default function Contact() {
                   ></path>
                 </svg>
                 <div className="ml-3 text-sm font-medium">
-                  Mensagem enviada com sucesso.
+                  Mensagem enviada com sucesso. Obrigado!
                 </div>
               </div>
             ) : null}
             <button
               type="submit"
               title="Enviar"
-              className="flex items-center justify-center rounded px-5 py-3 text-black dark:text-white bg-white hover:bg-gray-200 dark:bg-black dark:hover:bg-gray-800 shadow-sm  ease mx-auto transition ease border-2
-                disabled:opacity-75
-                "
+              className="flex items-center justify-center px-5 py-3 hover:border-2 rounded-lg dark:border-gray-600 border-gray-600 text-black dark:text-white bg-white hover:bg-gray-200 dark:bg-black dark:hover:bg-gray-800 shadow-sm ease mx-auto transition ease border-2 disabled:opacity-100 disabled:cursor-not-allowed disabled:transform-none disabled:transition-none"
               disabled={isSubmitting}
             >
               <span className="font-medium text-base">Enviar</span>

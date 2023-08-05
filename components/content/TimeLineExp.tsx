@@ -35,7 +35,7 @@ export const TimelineEvent = ({
           className={classNames(
             'absolute top-[-2px] left-[-8.5px] w-4 h-4 rounded-full aspect-square outline-black',
             {
-              'bg-emerald-500': active,
+              'bg-blue-700': active,
               'bg-neutral-800': !active,
               'w-3 h-3': !active,
               'left-[-5.5px]': !active,
@@ -45,7 +45,7 @@ export const TimelineEvent = ({
           {active && (
             <div
               className={classNames(
-                'absolute top-0 left-0 rounded-full -z-10 w-4 h-4 bg-emerald-500 animate-ping aspect-square',
+                'absolute top-0 left-0 rounded-full -z-10 w-4 h-4 bg-blue-600 animate-ping aspect-square',
               )}
             />
           )}

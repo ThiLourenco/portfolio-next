@@ -26,7 +26,7 @@ const allProjectsInfo = [
   {
     id: '3',
     title: 'Chat JS',
-    des: 'Chat multiplataforma usando CLI (interface de linha de comando) - Node.js.',
+    des: 'Chat multiplataforma usando CLI (interface de linha de comando).',
     category: 'javascript - nodejs - cli',
     repo: 'https://github.com/ThiLourenco/chat-js',
     link: 'https://www.npmjs.com/package/@thidotl17/hacker-chat-client',
@@ -34,16 +34,15 @@ const allProjectsInfo = [
   {
     id: '4',
     title: 'Coffee Delivery',
-    des: 'E-commerce desenvolvido em ReactJS e Typescript.',
-    category:
-      'typescript - react - styled-components - React-hook-form - Zod - react-toastify',
+    des: 'E-commerce para realizar pedidos de café.',
+    category: 'typescript - react  - React-hook-form - Zod',
     repo: 'https://github.com/ThiLourenco/coffee-delivery',
     link: 'https://coffee-delivery-thilourenco.vercel.app/',
   },
   {
     id: '5',
     title: 'Dev Finance',
-    des: 'Aplicação de controle financeiro com persistência de dados no Local Storage, desenvolvido em Javascript.',
+    des: 'Aplicação de controle financeiro com persistência de dados no Local Storage.',
     category: 'javascript',
     repo: 'https://github.com/ThiLourenco/app-finance',
     link: 'https://thilourenco.github.io/app-finance/',
@@ -75,7 +74,7 @@ const allProjectsInfo = [
   {
     id: '9',
     title: 'Ignite Feed',
-    des: 'Aplicação em ReactJS que simula um feed de uma rede social com interação de comentário e curtidas.',
+    des: 'Aplicação que simula um feed de uma rede social com interação de comentário e curtidas.',
     category: 'react',
     repo: 'https://github.com/ThiLourenco/ignite_feed',
     link: 'https://ignite-feed-thilourenco.vercel.app/',
@@ -91,7 +90,7 @@ const allProjectsInfo = [
   {
     id: '11',
     title: 'Ignite Shop',
-    des: 'E-commerce com "carrinho" de compras e integração com Stripe, desenvolvido em NextJS.',
+    des: 'E-commerce com "carrinho" de compras e integração com Stripe.',
     category: 'nextjs - stripe',
     repo: 'https://github.com/ThiLourenco/ignite-shop-2.0',
     link: 'https://ignite-shop-2-0-thilourenco.vercel.app/',
@@ -107,7 +106,7 @@ const allProjectsInfo = [
   {
     id: '13',
     title: 'Pitu',
-    des: 'Pitu é um micro-SaaS simples, mas eficiente para encurtar links e URLs, desenvolvido em Node.js.',
+    des: 'Pitu é um micro-SaaS simples, mas eficiente para encurtar links e URLs.',
     category: 'nodejs - typescript - react',
     repo: 'https://github.com/ThiLourenco/pitu',
     link: '',
@@ -123,7 +122,7 @@ const allProjectsInfo = [
   {
     id: '15',
     title: 'Rocket Help',
-    des: 'A aplicação para gerenciar em tempo real solicitações de manutenção e suporte a equipamentos, desenvolvido em ReactNative, Expo, Typescript e Firebase.',
+    des: 'A aplicação para gerenciar em tempo real solicitações de manutenção e suporte a equipamentos, desenvolvido com Expo, Typescript e Firebase.',
     category: 'nodejs - react - react-native - typescript',
     repo: 'https://github.com/ThiLourenco/pitu',
     link: '',
@@ -131,7 +130,7 @@ const allProjectsInfo = [
   {
     id: '16',
     title: 'Serviço de notificação',
-    des: 'Microsserviço - Serviço de notificação desenvolvido em Nodejs, Prisma e NestJS.',
+    des: 'Microsserviço - Serviço de notificação desenvolvido em NestJS e Prisma ORM.',
     category: 'nodejs - typescript - react',
     repo: 'https://github.com/ThiLourenco/notification-service',
     link: '',
@@ -139,7 +138,7 @@ const allProjectsInfo = [
   {
     id: '17',
     title: 'Widget de feedback',
-    des: 'Recurso Widget para realizar feedback, desenvolvido em Node.js.',
+    des: 'Recurso Widget para realizar feedback.',
     category: 'nodejs - typescript',
     repo: 'https://github.com/ThiLourenco/nlw-return',
     link: 'https://nlw-return-thilourenco.vercel.app/',
@@ -147,7 +146,7 @@ const allProjectsInfo = [
   {
     id: '18',
     title: 'zoomApp',
-    des: 'Clone do aplicativo Zoom, o projeto permite realizar gravação das chamadas realizadas, desenvolvido em Javascript.',
+    des: 'Clone do aplicativo Zoom, o projeto permite realizar gravação das chamadas realizadas.',
     category: 'javascript',
     repo: 'https://github.com/ThiLourenco/project-clone-zoomApp',
     link: '',
@@ -155,8 +154,8 @@ const allProjectsInfo = [
   {
     id: '19',
     title: 'Store 88',
-    des: 'E-commerce moderno desenvolvido em NextJS 13',
-    category: 'nextjs - typescript - tailwind',
+    des: 'E-commerce moderno com integração com a plataforma de processamento de pagamento Stripe.',
+    category: 'nextjs - typescript - tailwind - stripe',
     repo: 'https://github.com/ThiLourenco/e-commerce',
     link: 'https://e-commerce-thilourenco.vercel.app/',
   },
@@ -172,7 +171,7 @@ export const SearchAllProjects = () => {
   return (
     <>
       <AnimationContainer customClassName="w-full group flex flex-col justify-center items-center mb-8">
-        <div className="w-full flex items-center lg:w-3/6 h-12 rounded shadow-lg bg-white dark:bg-black border border-gray-200 dark:border-gray-800 group-hover:border-gray-800 dark:group-hover:border-gray-500 transition-all ease">
+        <div className="w-full flex items-center lg:w-3/6 h-12 rounded shadow-lg bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-600 group-hover:border-gray-600 dark:group-hover:border-gray-500 transition-all ease">
           <div className="grid place-items-center h-full w-12 text-gray-700 dark:text-gray-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -191,7 +190,7 @@ export const SearchAllProjects = () => {
           </div>
 
           <input
-            className="peer h-full w-full outline-none rounded text-sm bg-white dark:bg-black px-2 group-hover:border-gray-800 dark:group-hover:border-gray-500 transition-all ease"
+            className="peer h-full w-full outline-none rounded text-sm bg-white dark:bg-gray-900 px-2 group-hover:border-gray-900 dark:group-hover:border-gray-500 transition-all ease"
             type="text"
             id="search"
             placeholder="Languages, frameworks, libraries, etc..."
@@ -212,14 +211,26 @@ export const SearchAllProjects = () => {
           />
         ))}
       </article>
-
-      <button>
-        <Link href="/projects">
-          <span className="p-2 m-2 border-2 rounded-md items-center justify-center">
-            TOPO
-          </span>
-        </Link>
-      </button>
+      <div className="flex justify-center">
+        <button>
+          <Link href="/projects">
+            <svg
+              className="hover:border-2 rounded-lg dark:border-gray-600 border-gray-900"
+              fill="currentColor"
+              width="48"
+              height="48"
+              viewBox="0 0 15 15"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M4.18179 8.81819C4.00605 8.64245 4.00605 8.35753 4.18179 8.18179L7.18179 5.18179C7.26618 5.0974 7.38064 5.04999 7.49999 5.04999C7.61933 5.04999 7.73379 5.0974 7.81819 5.18179L10.8182 8.18179C10.9939 8.35753 10.9939 8.64245 10.8182 8.81819C10.6424 8.99392 10.3575 8.99392 10.1818 8.81819L7.49999 6.13638L4.81819 8.81819C4.64245 8.99392 4.35753 8.99392 4.18179 8.81819Z"
+              />
+            </svg>
+          </Link>
+        </button>
+      </div>
     </>
   )
 }

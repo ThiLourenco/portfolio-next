@@ -11,17 +11,16 @@ import { CurrentTimeLineExp } from '../content'
 const skills = [
   {
     title: 'Linguagem',
-    techs: ['HTML', 'CSS', 'JavaScript', 'TypeScript'],
+    techs: ['HTML/CSS', 'JavaScript', 'TypeScript'],
   },
   {
     title: 'Front-end',
     techs: ['React', 'Next.js'],
   },
   {
-    title: 'Pré-processadores, css style, e UI',
+    title: 'Styles e UI',
     techs: [
       'Pug',
-      'Scss',
       'Sass',
       'Tailwind',
       'Styled components',
@@ -43,16 +42,19 @@ const skills = [
       'MongoDB',
       'Dynamodb',
       'PostgreSQL',
+      'SQL',
+      'OracleDB',
       'GraphQL',
       'Firebase',
+      'AWS',
       'Sanity CMS',
       'Strapi',
       'Docker',
     ],
   },
   {
-    title: 'Softwares and tools',
-    techs: ['VS Code', 'Notion', 'Trello', 'Git', 'GitHub'],
+    title: 'Outros',
+    techs: ['VS Code', 'Notion', 'Git', 'GitHub'],
   },
 ]
 
@@ -68,9 +70,8 @@ export const AboutSection = () => {
             Javascript completamente apaixonado por tecnologias e pela forma que
             podemos utiliza-lá para melhorar a nossa qualidade de vida. Me
             tornei um entusiasta com a transformação da web e busco sempre a
-            construção de solução web rápida e eficiente. Venho aprimorando
-            minhas habilidades no Front-End criando algumas interfaces bem
-            legais, sempre que posso procuro aprender coisas novas.
+            construção de solução web rápida e eficiente, sempre que posso
+            procuro aprender coisas novas.
           </p>
         </AnimationContainer>
 
@@ -109,8 +110,8 @@ export const AboutSection = () => {
           </h2>
 
           <p className="text-base text-gray-600 dark:text-gray-400">
-            Estou interessado em aprender mais sobre o desenvolvimento Backend e
-            IA.
+            Estou interessado em aprender sobre a web3 com o desenvolvimento
+            Blockchain e a Inteligência Artificial (IA).
           </p>
 
           <p className="text-base text-gray-600 dark:text-gray-400">

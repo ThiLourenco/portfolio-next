@@ -151,7 +151,7 @@ export const Footer = () => {
           </ExternalLink>
         </div>
       </AnimationContainer>
-      <span className="text-zinc-400 hover:text-zinc-100 transition-colors text-1xl leading-tight text-center mb-5">
+      <span className="dark:text-zinc-400 dark:hover:text-zinc-100 text-gray-500 hover:text-gray-600 transition-colors text-1xl leading-tight text-center mb-5">
         © 2023{' '}
         <a
           href="https://github.com/thilourenco/"
@@ -162,7 +162,6 @@ export const Footer = () => {
         >
           Thiago Lourenço
         </a>
-        . All Rights Reserved.
       </span>
     </footer>
   )

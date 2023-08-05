@@ -17,9 +17,9 @@ export const CurrentTimeLineExp = () => {
         </TimelineEvent.Title>
 
         <TimelineEvent.Description>
-          Desenvolvimento fullstack implementando metodologias ágeis e melhores
-          práticas usando as seguintes tecnologias: JavaScript, TypeScript,
-          React, Next.js, Tailwind, Nodejs, Express, NestJs, Fastify e outros...
+          Desenvolvimento fullstack implementando as melhores práticas usando
+          tecnologias atuais: JavaScript, TypeScript, React, React-Native,
+          Next.js, Tailwind, Nodejs, Express, NestJs, Fastify e outros...
         </TimelineEvent.Description>
       </TimelineEvent>
     </Timeline>

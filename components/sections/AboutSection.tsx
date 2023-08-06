@@ -50,6 +50,8 @@ const skills = [
       'Sanity CMS',
       'Strapi',
       'Docker',
+      'ORMs',
+      'JWT',
     ],
   },
   {
@@ -70,8 +72,8 @@ export const AboutSection = () => {
             Javascript completamente apaixonado por tecnologias e pela forma que
             podemos utiliza-lá para melhorar a nossa qualidade de vida. Me
             tornei um entusiasta com a transformação da web e busco sempre a
-            construção de solução web rápida e eficiente, sempre que posso
-            procuro aprender coisas novas.
+            construção de solução web rápida e eficiente, nos tempos vagos
+            procuro sempre aprender coisas novas.
           </p>
         </AnimationContainer>
 
@@ -86,7 +88,7 @@ export const AboutSection = () => {
             Abaixo listo as linguagens de programação, bibliotecas e ferramentas
             com as quais trabalhei, comecei a programar há cerca de 3 anos.
             Embora o escopo do desenvolvimento web seja amplo, fiquei muito
-            interessado e focado no desenvolvimento Backend.
+            interessado e focado no desenvolvimento backend.
           </p>
 
           <div className="flex flex-col items-start gap-3 mt-3">

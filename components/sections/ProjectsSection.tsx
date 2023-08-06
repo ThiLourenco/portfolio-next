@@ -19,7 +19,7 @@ export const ProjectsSection = () => {
           <p className="w-full text-base text-gray-600 dark:text-gray-400">
             Estes são meus principais projetos que fiz desde que comecei a
             programar, alguns deles são projetos pessoais, freelance, prática ou
-            para outra situação. Se você quiser ver absolutamente todos os meus
+            fins de testes. Se você quiser ver absolutamente todos os meus
             projetos vá para o meu{' '}
             <a
               href={myGithub}
@@ -29,7 +29,7 @@ export const ProjectsSection = () => {
             >
               github.com/thilourenco
             </a>
-            .
+            , e não esqueça de deixar sua estrela.
           </p>
         </AnimationContainer>
 

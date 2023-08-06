@@ -71,7 +71,7 @@ export const ContactSection = () => {
                 Nome
               </label>
               <input
-                className="form-input w-full rounded p-3 text-base outline-none border bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
+                className="form-input w-full rounded p-3 text-base outline-none border text-gray-800 bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
                 placeholder="Nome"
                 type="text"
                 id="name"
@@ -87,7 +87,7 @@ export const ContactSection = () => {
                 E-mail
               </label>
               <input
-                className="form-input w-full rounded p-3 text-base outline-none border bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
+                className="form-input w-full rounded p-3 text-base outline-none border text-gray-800 bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
                 placeholder="E-mail"
                 type="email"
                 id="email"
@@ -102,7 +102,7 @@ export const ContactSection = () => {
                 Assunto
               </label>
               <input
-                className="form-input w-full rounded p-3 text-base outline-none border bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
+                className="form-input w-full rounded p-3 text-base outline-none border text-gray-800 bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
                 placeholder="Assunto"
                 type="subject"
                 id="subject"
@@ -117,7 +117,7 @@ export const ContactSection = () => {
                 Mensagem
               </label>
               <textarea
-                className="form-input w-full h-32 rounded p-3 text-base outline-none border bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
+                className="form-input w-full h-32 rounded p-3 text-base outline-none border text-gray-800 bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
                 placeholder="Digite aqui a sua mensagem"
                 id="message"
                 {...register('message', { required: true })}
@@ -129,7 +129,7 @@ export const ContactSection = () => {
             {isSent ? (
               <div
                 id="alert-border-3"
-                className="flex p-4 mb-4 text-green-500 border-t-4 border-green-300 bg-gray-800 dark:text-green-400 dark:bg-gray-800 dark:border-green-800"
+                className="flex p-4 mb-4 text-green-500 border-t-4 border-green-300 bg-zinc-100 dark:text-green-400 dark:bg-gray-800 dark:border-green-800"
                 role="alert"
               >
                 <svg

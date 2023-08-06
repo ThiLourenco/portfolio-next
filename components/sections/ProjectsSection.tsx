@@ -18,8 +18,8 @@ export const ProjectsSection = () => {
         <AnimationContainer customClassName="w-full flex flex-col gap-5 mb-8">
           <p className="w-full text-base text-gray-600 dark:text-gray-400">
             Estes são meus principais projetos que fiz desde que comecei a
-            programar, alguns deles são projetos pessoais, freelance, prática ou
-            fins de testes. Se você quiser ver absolutamente todos os meus
+            programar, alguns deles são projetos pessoais, freelancer, prática
+            ou afim de teste. Se você quiser ver absolutamente todos os meus
             projetos vá para o meu{' '}
             <a
               href={myGithub}

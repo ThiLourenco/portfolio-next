@@ -11,8 +11,9 @@ const Head = () => {
 
   const meta = {
     title: `Thiago Lourenço ${pathname === '/' ? '' : '· ' + titleFixedToShow}`,
-    description: `Description xpto`,
-    keywords: 'Keywords xpto',
+    description: `Thiago Lourenço desenvolvedor fullstack - Javascript, Typescript, Nodejs, ReactJS, React Native.`,
+    keywords:
+      'Web, Desenvolvedor Fullstack, Aplicativos Web, frontend, backend, Full-stack, Javascript, Typescript, React, React Native, Nextjs, Nodejs, Thiago Lourenço, ThiLourenco, ThiLourenço, Thiago Lourenço Portfólio, ThiLourenco Portfólio, thilourenco github, Thiago Lourenço LinkedIn',
     image: '../public/og-image.jpg',
     type: 'website',
   }
@@ -21,12 +22,41 @@ const Head = () => {
     <>
       <title>{meta.title}</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="robots" content="follow, index" />
+      <meta
+        content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        name="robots"
+      />
       <meta content={meta.description} name="description" />
       <meta name="keywords" content={meta.keywords} />
       <meta
         property="og:url"
         content={`https://thilourenco.vercel.app${pathname}`}
+      />
+
+      <meta content="#111010" name="theme-color" />
+      <meta content="#111010" name="msapplication-TileColor" />
+      <meta
+        content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        name="robots"
+      />
+      <link href="/static/favicons/favicon.ico" rel="shortcut icon" />
+      <link href="/static/favicons/site.webmanifest" rel="manifest" />
+      <link
+        href="/static/favicons/apple-touch-icon.png"
+        rel="apple-touch-icon"
+        sizes="180x180"
+      />
+      <link
+        href="/static/favicons/favicon-32x32.png"
+        rel="icon"
+        sizes="32x32"
+        type="image/png"
+      />
+      <link
+        href="/static/favicons/favicon-16x16.png"
+        rel="icon"
+        sizes="16x16"
+        type="image/png"
       />
       <link
         rel="canonical"

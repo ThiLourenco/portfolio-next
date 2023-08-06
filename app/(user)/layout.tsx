@@ -5,6 +5,7 @@ import { Providers } from '../providers'
 import { Inter } from 'next/font/google'
 import { Header, Footer } from '@/components/ui'
 import { ReactNode } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 
 const interVariable = Inter({
   subsets: ['latin'],
@@ -13,7 +14,7 @@ const interVariable = Inter({
 
 const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
-    <html>
+    <html lang="pt-BR">
       <body className="bg-gray-50 dark:bg-gray-900 transition ease">
         <Providers>
           <Header />
@@ -25,6 +26,7 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
             }
           >
             {children}
+            <Analytics mode={'production'} />
           </main>
 
           <Footer />

@@ -48,7 +48,7 @@ export const Hero = () => {
         </h2>
 
         <p className="w-full text-base text-center lg:text-start mb-5 lg:mb-0 text-gray-600 dark:text-gray-400 mx-auto lg:mx-0">
-          building the future.
+          building the future
         </p>
       </AnimationContainer>
 

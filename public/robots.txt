@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://thilourenco.dev.br
+
+# Sitemaps
+Sitemap: https://thilourenco.dev.br/sitemap.xml

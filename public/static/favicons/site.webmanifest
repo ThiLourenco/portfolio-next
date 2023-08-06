@@ -1,0 +1,24 @@
+{
+    "name": "Thiago Lourenço",
+    "short_name": "thilourenco.dev.br",
+    "description": "software developer and curious mind.",
+    "icons": [
+        {
+            "src": "/static/favicons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/favicons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "background_color": "#111010",
+    "theme_color": "#111010",
+    "display": "standalone",
+    "dir": "ltr",
+    "lang": "pt-BR",
+    "orientation": "portrait-primary",
+    "start_url": "../../index.html"
+}

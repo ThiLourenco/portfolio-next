@@ -41,8 +41,8 @@ export default async function handler(
       `,
     }
 
-    const info = await transporter.sendMail(mailData)
-    console.log('Message sent:', info.messageId)
+    await transporter.sendMail(mailData)
+    console.log('Message sent with success !')
 
     res.status(200).json({ message: 'Email sent' })
   } catch (error) {

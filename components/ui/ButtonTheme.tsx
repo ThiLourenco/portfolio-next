@@ -26,6 +26,7 @@ export const ButtonTheme = () => {
           enableBackground="accumulate"
           className="w-5 h-5 text-gray-300 group-hover:text-gray-800 dark:text-gray-500 dark:group-hover:text-gray-200 transition ease"
         >
+          <title>Toggle Dark Mode</title>
           {resolvedTheme === 'dark' ? (
             <path
               strokeLinecap="round"

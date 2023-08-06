@@ -30,7 +30,7 @@ const Head = () => {
       <meta name="keywords" content={meta.keywords} />
       <meta
         property="og:url"
-        content={`https://thilourenco.vercel.app${pathname}`}
+        content={`https://thilourenco.dev.br/${pathname}`}
       />
 
       <meta content="#111010" name="theme-color" />
@@ -58,10 +58,7 @@ const Head = () => {
         sizes="16x16"
         type="image/png"
       />
-      <link
-        rel="canonical"
-        href={`https://thilourenco.vercel.app${pathname}`}
-      />
+      <link rel="canonical" href={`https://thilourenco.dev.br/${pathname}`} />
       <link rel="me" href="mailto:thi.it.solutions@gmail.com" />
       <meta property="og:type" content={meta.type} />
       <meta property="og:site_name" content="Thiago Lourenço" />

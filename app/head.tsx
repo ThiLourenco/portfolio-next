@@ -30,7 +30,7 @@ const Head = () => {
       <meta name="keywords" content={meta.keywords} />
       <meta
         property="og:url"
-        content={`https://thilourenco.dev.br/${pathname}`}
+        content={`https://thilourenco.dev.br${pathname}`}
       />
 
       <meta content="#111010" name="theme-color" />
@@ -39,26 +39,26 @@ const Head = () => {
         content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         name="robots"
       />
-      <link href="public/static/favicons/favicon.ico" rel="shortcut icon" />
-      <link href="public/static/favicons/site.webmanifest" rel="manifest" />
+      <link href="public/favicons/favicon.ico" rel="shortcut icon" />
+      <link href="public/favicons/site.webmanifest" rel="manifest" />
       <link
-        href="public/static/favicons/apple-touch-icon.png"
+        href="public/favicons/apple-touch-icon.png"
         rel="apple-touch-icon"
         sizes="180x180"
       />
       <link
-        href="public/static/favicons/favicon-32x32.png"
+        href="public/favicons/favicon-32x32.png"
         rel="icon"
         sizes="32x32"
         type="image/png"
       />
       <link
-        href="public/static/favicons/favicon-16x16.png"
+        href="public/favicons/favicon-16x16.png"
         rel="icon"
         sizes="16x16"
         type="image/png"
       />
-      <link rel="canonical" href={`https://thilourenco.dev.br/${pathname}`} />
+      <link rel="canonical" href={`https://thilourenco.dev.br${pathname}`} />
       <link rel="me" href="mailto:thi.it.solutions@gmail.com" />
       <meta property="og:type" content={meta.type} />
       <meta property="og:site_name" content="Thiago Lourenço" />

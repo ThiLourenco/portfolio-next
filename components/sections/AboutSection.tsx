@@ -69,10 +69,10 @@ export const AboutSection = () => {
         <AnimationContainer customClassName="w-full flex flex-col gap-5 mb-8">
           <p className="text-base text-gray-600 dark:text-gray-400">
             Olá me chamo Thiago Lourenço, sou estudante do curso de engenharia
-            de software e desenvolvedor full-stack Javascript completamente
+            de software e desenvolvedor full-stack Javascript, sou completamente
             apaixonado por tecnologias e pela forma que podemos utiliza-lá para
             melhorar a nossa qualidade de vida. Me tornei um entusiasta com a
-            transformação da web e busco sempre a construção de solução web
+            transformação da web e busco sempre a construção de uma solução web
             rápida e eficiente, nos tempos vagos procuro sempre aprender coisas
             novas.
           </p>

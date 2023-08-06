@@ -6,6 +6,7 @@ import { Inter } from 'next/font/google'
 import { Header, Footer } from '@/components/ui'
 import { ReactNode } from 'react'
 import { Analytics } from '@vercel/analytics/react'
+import GoogleAnalytics from '@/components/utils/Analytics'
 
 const interVariable = Inter({
   subsets: ['latin'],
@@ -27,6 +28,7 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
           >
             {children}
             <Analytics mode={'production'} />
+            <GoogleAnalytics />
           </main>
 
           <Footer />

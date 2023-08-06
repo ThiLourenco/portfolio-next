@@ -212,7 +212,7 @@ export const SearchAllProjects = () => {
         ))}
       </article>
       <div className="flex justify-center">
-        <button>
+        <button name="Topo" title="Topo">
           <Link href="/projects">
             <svg
               className="hover:border-2 rounded-lg dark:border-gray-600 border-gray-900"

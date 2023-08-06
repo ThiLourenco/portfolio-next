@@ -18,9 +18,9 @@ export const navItems: { [key: string]: NavItemHeaderAnimation } = {
   },
   '/projects': {
     name: 'projetos',
-    x: 137,
+    x: 134,
     y: -3,
-    w: '78px',
+    w: '86px',
   },
   '/contact': {
     name: 'contato',
@@ -41,6 +41,7 @@ export const LinksNav = () => {
           <Link
             key={path}
             href={path}
+            title={name}
             className={clsx(
               'hidden lg:inline-block transition ease hover:text-neutral-800 dark:hover:text-neutral-200 py-[2px] px-[10px]',
               {

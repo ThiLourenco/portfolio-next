@@ -71,7 +71,7 @@ export const ContactSection = () => {
                 Nome
               </label>
               <input
-                className="form-input w-full rounded p-3 text-base outline-none border text-gray-800 bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
+                className="form-input w-full rounded p-3 text-base outline-none border text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
                 placeholder="Nome"
                 type="text"
                 id="name"
@@ -87,7 +87,7 @@ export const ContactSection = () => {
                 E-mail
               </label>
               <input
-                className="form-input w-full rounded p-3 text-base outline-none border text-gray-800 bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
+                className="form-input w-full rounded p-3 text-base outline-none border text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
                 placeholder="E-mail"
                 type="email"
                 id="email"
@@ -102,7 +102,7 @@ export const ContactSection = () => {
                 Assunto
               </label>
               <input
-                className="form-input w-full rounded p-3 text-base outline-none border text-gray-800 bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
+                className="form-input w-full rounded p-3 text-base outline-none border text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
                 placeholder="Assunto"
                 type="subject"
                 id="subject"
@@ -117,7 +117,7 @@ export const ContactSection = () => {
                 Mensagem
               </label>
               <textarea
-                className="form-input w-full h-32 rounded p-3 text-base outline-none border text-gray-800 bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
+                className="form-input w-full h-32 rounded p-3 text-base outline-none border text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-900 border-gray-200 dark:border-gray-800 focus:border-gray-800 dark:focus:border-gray-500 transition ease"
                 placeholder="Digite aqui a sua mensagem"
                 id="message"
                 {...register('message', { required: true })}

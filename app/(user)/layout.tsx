@@ -35,7 +35,7 @@ export const metadata = {
     title: meta.og_title,
     url: meta.url,
     images: {
-      url: 'https://thilourenco.dev.br/images/og-image.png',
+      url: 'https://thilourenco.dev.br/static/images/og-image.png',
       width: 400,
       height: 300,
     },
@@ -47,7 +47,7 @@ export const metadata = {
     siteId: '1613712013590405122',
     creator: '@iam3c1',
     creatorId: '1613712013590405122',
-    images: ['https://thilourenco.dev.br/images/og-image.png'],
+    images: ['https://thilourenco.dev.br/static/images/og-image.png'],
   },
   metadataBase: new URL('https://thilourenco.dev.br'),
   alternates: {
@@ -69,7 +69,7 @@ export const metadata = {
       'max-snippet': -1,
     },
   },
-  manifest: 'https://thilourenco.dev.br/manifest.json',
+  manifest: 'https://thilourenco.dev.br/site.webmanifest',
 }
 
 const RootLayout = ({ children }: { children: ReactNode }) => {

@@ -22,7 +22,7 @@ const skills = [
     techs: [
       'Pug',
       'Sass',
-      'Tailwind',
+      'TailwindCSS',
       'Styled components',
       'MaterialUI',
       'Framer Motion',
@@ -50,7 +50,8 @@ const skills = [
       'Sanity CMS',
       'Strapi',
       'Docker',
-      'ORMs',
+      'TypeORM',
+      'Prisma',
       'JWT',
     ],
   },
@@ -114,7 +115,7 @@ export const AboutSection = () => {
 
           <p className="text-base text-gray-600 dark:text-gray-400">
             Estou interessado em aprender sobre a web3 com o desenvolvimento
-            Blockchain e a Inteligência Artificial (IA).
+            Blockchain e também Inteligência Artificial (IA).
           </p>
 
           <p className="text-base text-gray-600 dark:text-gray-400">

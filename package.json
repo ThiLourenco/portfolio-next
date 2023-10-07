@@ -52,7 +52,7 @@
     "autoprefixer": "^10.4.13",
     "eslint": "^8.32.0",
     "eslint-config-next": "^13.4.10",
-    "postcss": "^8.4.21",
+    "postcss": "^8.4.31",
     "postcss-preset-env": "^7.8.3",
     "prettier": "^2.8.3"
   },

@@ -43,10 +43,26 @@
   opacity: 1;
 }
 
-.menuRendered li {
+/* .menuRendered li {
   @apply border-gray-200 dark:border-gray-600 w-full;
   transform: translateX(0);
   opacity: 1;
+} */
+
+.menuRendered li {
+  @apply w-full;
+  transform: translateX(0);
+  opacity: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+  .menuRendered li {
+    @apply dark:border-gray-600;
+  }
+}
+
+.menuRendered li {
+  @apply border-gray-200;
 }
 
 .menu>*+* {

@@ -163,8 +163,8 @@ export const FavProjects = () => {
 
   const mobile = useMediaQuery(`(max-width: ${theme.breakpoints.sm}px)`)
 
-  const slides = favProjects.map((item) => (
-    <Carousel.Slide key={item.title}>
+  const slides = favProjects.map((item, index) => (
+    <Carousel.Slide key={`${item.title}_${index}`}>
       <Card {...item} />
     </Carousel.Slide>
   ))

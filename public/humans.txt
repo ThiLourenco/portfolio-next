@@ -43,5 +43,5 @@ by 3c1.
 
 /* SITE */
             Last update: 10/10/2023
-            Built with: Nextjs,tailwindcss,SanityCMS,Typescript 
+            Built with: Nextjs,Tailwindcss,SanityCMS,Typescript 
             Language: Portuguese

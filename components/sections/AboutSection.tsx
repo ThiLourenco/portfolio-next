@@ -70,7 +70,7 @@ export const AboutSection = () => {
         <AnimationContainer customClassName="w-full flex flex-col gap-5 mb-8">
           <p className="text-base text-gray-600 dark:text-gray-400">
             Olá me chamo Thiago Lourenço, sou estudante do curso de engenharia
-            de software e desenvolvedor full-stack Javascript, sou completamente
+            de software e desenvolvedor full-stack JavaScript, sou completamente
             apaixonado por tecnologias e pela forma que podemos utiliza-lá para
             melhorar a nossa qualidade de vida. Me tornei um entusiasta com a
             transformação da web e busco sempre a construção de uma solução web
@@ -90,7 +90,7 @@ export const AboutSection = () => {
             Abaixo listo as linguagens de programação, bibliotecas e ferramentas
             com as quais trabalhei, comecei a programar há cerca de 3 anos.
             Embora o escopo do desenvolvimento web seja amplo, fiquei muito
-            interessado e focado no desenvolvimento backend.
+            interessado e resolvi focar no desenvolvimento backend.
           </p>
 
           <div className="flex flex-col items-start gap-3 mt-3">
@@ -114,8 +114,8 @@ export const AboutSection = () => {
           </h2>
 
           <p className="text-base text-gray-600 dark:text-gray-400">
-            Estou interessado em aprender sobre a web3 com o desenvolvimento
-            Blockchain e também Inteligência Artificial (IA).
+            Tenho interesses em aprender sobre a web3 com o desenvolvimento
+            Blockchain e também Inteligência Artificial (AI).
           </p>
 
           <p className="text-base text-gray-600 dark:text-gray-400">

@@ -193,7 +193,7 @@ export const SearchAllProjects = () => {
             className="peer h-full w-full outline-none rounded text-sm bg-white dark:bg-gray-900 px-2 group-hover:border-gray-900 dark:group-hover:border-gray-500 transition-all ease"
             type="text"
             id="search"
-            placeholder="Languages, frameworks, libraries, etc..."
+            placeholder="Linguagens, frameworks, libraries..."
             onChange={(e) => setProjectSearch(e.target.value)}
           />
         </div>

@@ -1,15 +1,23 @@
 import '../../styles/globals.css'
 import { Providers } from '../providers'
-import { Inter } from 'next/font/google'
+import {
+  // Inter,
+  // Montserrat,
+  // Open_Sans,
+  // DM_Sans,
+  // Lato,
+  Poppins,
+} from 'next/font/google'
 import { Header, Footer } from '@/components/ui'
-import { ReactNode } from 'react'
+import { ReactNode, Suspense } from 'react'
 import { Analytics } from '@vercel/analytics/react'
 import GoogleAnalytics from '@/components/utils/Analytics'
 import { meta } from '@/components/utils/SEO'
+import GoogleTagAnalytics from '@/components/utils/Gtags'
 
-const interVariable = Inter({
+const fontVariable = Poppins({
   subsets: ['latin'],
-  weight: '400',
+  weight: ['100', '200', '300', '400', '600'],
 })
 
 export const metadata = {
@@ -81,13 +89,16 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
 
           <main
             className={
-              interVariable.className +
+              fontVariable.className +
               ' min-w-xs max-w-screen-md flex flex-col justify-center items-center mx-auto'
             }
           >
             {children}
-            <Analytics mode={'production'} />
-            <GoogleAnalytics />
+            <Suspense>
+              <Analytics mode={'production'} />
+              <GoogleAnalytics />
+              <GoogleTagAnalytics />
+            </Suspense>
           </main>
 
           <Footer />

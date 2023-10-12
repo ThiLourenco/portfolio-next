@@ -1,4 +1,4 @@
-'use Client'
+'use client'
 
 import { GTM_ID, pageView } from '@/lib/gtm'
 import { usePathname, useSearchParams } from 'next/navigation'

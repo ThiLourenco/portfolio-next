@@ -13,7 +13,7 @@ export const NavItem = () => {
         <>
           <div className="hidden lg:block">
             <motion.div
-              className="absolute bg-neutral-200 dark:bg-neutral-800 h-[34px] rounded-md z-[-1]"
+              className="bg-neutral-200 dark:bg-neutral-800"
               layoutId="test2"
               initial={{
                 opacity: 0,

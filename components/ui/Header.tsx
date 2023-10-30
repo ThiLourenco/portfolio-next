@@ -9,7 +9,7 @@ export const Header = () => {
         <div>
           <h1>
             <Link href="/" title="ThiLourenco">
-              <strong className="bg-gradient-to-r from-gray-800 via-blue-800 to-blue-900 inline-block dark:text-transparent bg-clip-text">
+              <strong className="inline-block dark:text-white bg-clip-text">
                 TL.it
               </strong>
             </Link>

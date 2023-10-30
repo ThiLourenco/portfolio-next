@@ -2,13 +2,7 @@
 
 import { Carousel } from '@mantine/carousel'
 import { useMediaQuery } from '@mantine/hooks'
-import {
-  createStyles,
-  Paper,
-  Text,
-  Title,
-  useMantineTheme,
-} from '@mantine/core'
+import { createStyles, Paper, Title, useMantineTheme } from '@mantine/core'
 import { AnimationContainer } from '../utils'
 import { ExternalLink } from '../ui'
 
@@ -40,14 +34,14 @@ const useStyles = createStyles((theme: any) => ({
 }))
 
 interface CardProps {
+  id: number
   image: string
   title: string
-  category: string
   repo: string
   link: string
 }
 
-const Card = ({ image, title, category, repo, link }: CardProps) => {
+const Card = ({ id, image, title, repo, link }: CardProps) => {
   const { classes } = useStyles()
 
   return (
@@ -58,9 +52,6 @@ const Card = ({ image, title, category, repo, link }: CardProps) => {
       className={classes.card}
     >
       <div>
-        <Text className={classes.category} size="xs">
-          {category}
-        </Text>
         <Title order={3} className={classes.title} size="xs">
           {title}
         </Title>
@@ -131,26 +122,26 @@ const Card = ({ image, title, category, repo, link }: CardProps) => {
 
 const favProjects = [
   {
+    id: 1,
     image:
       'https://portfolio-next-thilourenco.vercel.app/static/images/store.png',
     title: '',
-    category: '',
     repo: 'https://github.com/ThiLourenco/e-commerce',
     link: 'https://e-commerce-thilourenco.vercel.app/',
   },
   {
+    id: 2,
     image:
       'https://thilourenco.dev.br/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FgCv97gwMRJaTLuqmjn3y&w=640&q=100',
     title: '',
-    category: '',
     repo: 'https://github.com/ThiLourenco/rentalx',
     link: '',
   },
   {
+    id: 3,
     image:
       'https://thilourenco.dev.br/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2Fx2ctlyrgTRC91wCSK0dj&w=640&q=100',
     title: '',
-    category: '',
     repo: 'https://github.com/ThiLourenco/habit',
     link: '',
   },
@@ -164,7 +155,7 @@ export const FavProjects = () => {
   const mobile = useMediaQuery(`(max-width: ${theme.breakpoints.sm}px)`)
 
   const slides = favProjects.map((item, index) => (
-    <Carousel.Slide key={`${item.title}_${index}`}>
+    <Carousel.Slide key={`${item.id}_${index}`}>
       <Card {...item} />
     </Carousel.Slide>
   ))

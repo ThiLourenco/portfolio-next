@@ -20,13 +20,16 @@ const fontVariable = Poppins({
   weight: ['100', '200', '300', '400', '600'],
 })
 
+export const viewport = {
+  themeColor: '#111010',
+  colorScheme: 'dark',
+}
+
 export const metadata = {
   title: {
     default: meta.title,
     template: '%s | Thiago Lourenço',
   },
-  themeColor: '#111010',
-  colorScheme: 'dark',
   description: meta.description,
   keywords: meta.keywords,
   generator: meta.generator,

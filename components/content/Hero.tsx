@@ -6,7 +6,7 @@ export const Hero = () => {
     <div className="w-full flex justify-between flex-col-reverse lg:flex-row items-center">
       <AnimationContainer customClassName="flex flex-col items-center justify-between lg:items-start p-0 lg:pr-8">
         <h1 className="font-bold text-3xl lg:text-5xl text-center lg:text-start tracking-tight mb-3 text-black dark:text-white mx-auto lg:mx-0 ">
-          <span className="bg-gradient-to-r from-gray-800 via-blue-800 to-blue-900 inline-block dark:text-transparent bg-clip-text">
+          <span className="dark:text-white text-black inline-block bg-clip-text">
             Thi
           </span>
           ago Lourenço
@@ -57,7 +57,7 @@ export const Hero = () => {
           alt="Thiago Lourenço"
           height={176}
           width={176}
-          src="/thi-lourenco.jpeg"
+          src="/thiago-bw.jpeg"
           sizes="30vw"
           priority
           className="rounded-3xl filter grayscale hover:grayscale-0 transition ease"

@@ -42,6 +42,6 @@ by 3c1.
             Contact: https://thilourenco.dev.br/contact
 
 /* SITE */
-            Last update: 10/10/2023
-            Built with: Nextjs,Tailwindcss,SanityCMS,Typescript 
-            Language: Portuguese
+            Last update: 29/10/2023
+            Built with: Nextjs 14,Tailwindcss,SanityCMS,Typescript 
+            Language: Portuguese - pt-br

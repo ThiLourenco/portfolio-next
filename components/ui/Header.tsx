@@ -9,7 +9,7 @@ export const Header = () => {
         <div>
           <h1>
             <Link href="/" title="ThiLourenco">
-              <strong className="inline-block dark:text-white bg-clip-text">
+              <strong className="inline-flex text-1xl font-medium animate-shine dark:bg-[linear-gradient(110deg,#939393,45%,#1e2631,55%,#939393)] bg-[linear-gradient(110deg,#464646,45%,#939393,55%,#464646)] bg-[length:250%_100%] bg-clip-text text-transparent">
                 TL.it
               </strong>
             </Link>

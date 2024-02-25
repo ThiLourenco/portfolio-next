@@ -25,7 +25,7 @@ export const ProjectsSection = () => {
               href={myGithub}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-black dark:hover:text-white hover:underline transition-all ease"
+              className="font-bold hover:text-black dark:hover:text-white hover:underline transition-all ease"
             >
               github.com/thilourenco
             </a>

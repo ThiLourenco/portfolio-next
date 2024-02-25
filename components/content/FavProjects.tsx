@@ -162,22 +162,21 @@ export const FavProjects = () => {
 
   return (
     <AnimationContainer customClassName="w-full flex flex-col justify-center text-center lg:items-start mb-16">
-      <h2 className="font-bold text-2xl lg:text-2xl tracking-tight mb-8 text-black dark:text-white text-center lg:text-start">
+      <h2 className="font-normal text-2xl lg:text-2xl tracking-tight mb-8 text-black dark:text-white text-center lg:text-start">
         Principais projetos
       </h2>
 
       <p className="text-base text-gray-600 dark:text-gray-400 mb-10 text-start">
-        Esses são meus projetos favoritos e também os que considero os mais
-        completos e complexos que já fiz, se quiser ver todos os meus projetos
-        acesse meu{' '}
+        Destaco esses projetos por serem mais completos, para visualizar todos
+        os meus projetos acesse meu{' '}
         <a
           href={myGithub}
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-black dark:hover:text-white hover:underline transition-all ease"
         >
-          GitHub
-        </a>
+          <b>github</b>
+        </a>{' '}
         .
       </p>
 

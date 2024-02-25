@@ -10,6 +10,7 @@ import {
 } from 'next/font/google'
 import { Header, Footer } from '@/components/ui'
 import { ReactNode, Suspense } from 'react'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import { Analytics } from '@vercel/analytics/react'
 import GoogleAnalytics from '@/components/utils/Analytics'
 import { meta } from '@/components/utils/SEO'
@@ -97,7 +98,8 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
             }
           >
             {children}
-            <Suspense>
+            <SpeedInsights />
+            <Suspense fallback={null}>
               <Analytics mode={'production'} />
               <GoogleAnalytics />
               <GoogleTagAnalytics />

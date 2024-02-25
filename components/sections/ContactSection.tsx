@@ -18,7 +18,7 @@ const confirmFormSchema = z.object({
   subject: z.string().min(1, { message: 'Digite o assunto.' }),
   message: z
     .string()
-    .min(10, 'Digite no mínimo 10 caracteres.')
+    .min(5, 'Digite no mínimo 5 caracteres.')
     .max(500, 'Mensagem muito grande.'),
 })
 

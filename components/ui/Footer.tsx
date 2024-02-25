@@ -3,6 +3,7 @@ import { AnimationContainer } from '../utils'
 import { ExternalLink } from './'
 
 export const Footer = () => {
+  const today = new Date()
   return (
     <footer className="w-full lg:min-w-xs lg:max-w-screen-md flex flex-col justify-center items-center mx-auto">
       <hr className="w-full border-1 border-gray-200 dark:border-gray-800 mb-8" />
@@ -149,7 +150,7 @@ export const Footer = () => {
         </div>
       </AnimationContainer>
       <span className="dark:text-zinc-400 dark:hover:text-zinc-100 text-gray-500 hover:text-gray-600 transition-colors text-1xl leading-tight text-center mb-5">
-        © 2023{' '}
+        © {today.getFullYear()}{' '}
         <a
           href="https://github.com/thilourenco/"
           title="Thiago Lourenço"

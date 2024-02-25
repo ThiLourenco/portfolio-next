@@ -14,6 +14,7 @@ export const ShowSkills = ({ skills }: { skills: string | string[] }) => {
           <Badge
             key={skill}
             color={resolvedTheme === 'dark' ? 'blue' : 'dark'}
+            className="inline-flex animate-shine items-center justify-center rounded-full text-xs border border-neutral-800 dark:bg-#000103 bg-[length:200%_100%] px-3 py-1 font-medium dark:text-neutral-400 text-neutral-600 transition-colors"
             size="sm"
             radius="sm"
             variant="outline"
@@ -30,6 +31,7 @@ export const ShowSkills = ({ skills }: { skills: string | string[] }) => {
       color={resolvedTheme === 'dark' ? 'blue' : 'dark'}
       size="sm"
       radius="sm"
+      className="inline-flex animate-shine items-center justify-center rounded-full text-xs border border-neutral-800 dark:bg-#000103 bg-[length:200%_100%] px-3 py-1 font-medium dark:text-neutral-400 text-neutral-600 transition-colors"
       variant="outline"
     >
       {skills}

@@ -95,11 +95,28 @@ module.exports = {
         },
       }),
     },
+    animation: {
+      shine: 'shine 2s linear infinite',
+      'text-gradient': 'text-gradient 1.5s linear infinite',
+    },
+    keyframes: {
+      shine: {
+        from: {
+          backgroundPosition: '0 0',
+        },
+        to: {
+          backgroundPosition: '-200% 0',
+        },
+      },
+      'text-gradient': {
+        to: {
+          backgroundPosition: '200% center',
+        },
+      },
+    },
   },
   variants: {
     typography: ['dark'],
   },
-  plugins: [
-    require('@tailwindcss/typography'),
-  ],
+  plugins: [require('@tailwindcss/typography')],
 }

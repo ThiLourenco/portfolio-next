@@ -7,59 +7,7 @@ import {
   TitleSectionPageContainer,
 } from '../utils'
 import { CurrentTimeLineExp } from '../content'
-
-const skills = [
-  {
-    title: 'Linguagem',
-    techs: ['HTML/CSS', 'JavaScript', 'TypeScript'],
-  },
-  {
-    title: 'Front-end',
-    techs: ['React', 'Next.js'],
-  },
-  {
-    title: 'Styles e UI',
-    techs: [
-      'Pug',
-      'Sass',
-      'TailwindCSS',
-      'Styled components',
-      'MaterialUI',
-      'Framer Motion',
-    ],
-  },
-  {
-    title: 'Mobile',
-    techs: ['React Native', 'Expo'],
-  },
-  {
-    title: 'Back-end',
-    techs: [
-      'Node.js',
-      'Express.js',
-      'Nestjs',
-      'Fastify',
-      'MongoDB',
-      'Dynamodb',
-      'PostgreSQL',
-      'SQL',
-      'OracleDB',
-      'GraphQL',
-      'Firebase',
-      'AWS',
-      'Sanity CMS',
-      'Strapi',
-      'Docker',
-      'TypeORM',
-      'Prisma',
-      'JWT',
-    ],
-  },
-  {
-    title: 'Outros',
-    techs: ['VS Code', 'Notion', 'Git', 'GitHub'],
-  },
-]
+import { skills } from '../utils/skill'
 
 export const AboutSection = () => {
   return (
@@ -75,32 +23,32 @@ export const AboutSection = () => {
             melhorar a nossa qualidade de vida. Me tornei um entusiasta com a
             transformação da web e busco sempre a construção de uma solução web
             rápida e eficiente, nos tempos vagos procuro sempre aprender coisas
-            novas. Amo o que faço e ajudo os outros com o que posso.
+            novas buscando sempre o próximo nível.
           </p>
         </AnimationContainer>
 
         <CurrentTimeLineExp />
 
         <AnimationContainer customClassName="w-full flex flex-col gap-5 mb-8">
-          <h2 className="font-bold text-2xl md:text-2xl tracking-tight mb-2 text-black dark:text-white text-start">
+          <h2 className="font-normal text-2xl md:text-2xl tracking-tight mb-2 text-black dark:text-white text-start">
             Habilidades e ferramentas
           </h2>
 
           <p className="text-base text-gray-600 dark:text-gray-400">
-            Abaixo listo as linguagens de programação, bibliotecas e ferramentas
-            com as quais trabalhei, comecei a programar há cerca de 3 anos.
-            Embora o escopo do desenvolvimento web seja amplo, fiquei muito
-            interessado e resolvi focar no desenvolvimento backend.
+            Abaixo listo algumas tecnologias com as quais já desenvolvi, comecei
+            a programar há cerca de 3 anos. Embora o escopo do desenvolvimento
+            web seja amplo, fiquei muito interessado e resolvi focar no
+            desenvolvimento backend e banco de dados.
           </p>
 
           <div className="flex flex-col items-start gap-3 mt-3">
             {skills.map(({ title, techs }) => (
               <div key={title}>
-                <h3 className="font-bold text-1xl md:text-1xl tracking-tight mb-5 text-black dark:text-white text-start">
+                <h3 className="font-normal text-1xl md:text-1xl tracking-tight mb-5 text-black dark:text-white text-start">
                   {title}
                 </h3>
 
-                <AnimationContainer customClassName="flex items-center flex-wrap gap-3 mb-5">
+                <AnimationContainer customClassName="flex items-center flex-wrap gap-3 mb-5 ">
                   <ShowSkills skills={techs} />
                 </AnimationContainer>
               </div>
@@ -109,13 +57,13 @@ export const AboutSection = () => {
         </AnimationContainer>
 
         <AnimationContainer customClassName="w-full flex flex-col gap-5">
-          <h2 className="font-bold text-2xl md:text-2xl tracking-tight mb-2 text-black dark:text-white text-start">
+          <h2 className="font-normal text-2xl md:text-2xl tracking-tight mb-2 text-black dark:text-white text-start">
             Interesses
           </h2>
 
           <p className="text-base text-gray-600 dark:text-gray-400">
             Tenho interesses em aprender sobre a web3 com o desenvolvimento
-            Blockchain e também Inteligência Artificial (AI).
+            Blockchain e Inteligência Artificial (AI).
           </p>
 
           <p className="text-base text-gray-600 dark:text-gray-400">

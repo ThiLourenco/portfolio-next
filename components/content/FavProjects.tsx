@@ -176,7 +176,7 @@ export const FavProjects = () => {
           className="hover:text-black dark:hover:text-white hover:underline transition-all ease"
         >
           <b>github</b>
-        </a>{' '}
+        </a>
         .
       </p>
 

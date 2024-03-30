@@ -42,7 +42,7 @@ by 3c1.
             Contact: https://thilourenco.dev.br/contact
 
 /* SITE */
-            Last update: 25/02/2024
+            Last update: 29/03/2024
             Built with: Next.js 14,Typescript,Tailwindcss,Shadcn-UI 
-            Host: Vercel 
-            Language: Portuguese - pt-br
+            Hosted by: Vercel 
+            Language: Portuguese - PT-br

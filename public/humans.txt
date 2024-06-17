@@ -37,7 +37,7 @@ by 3c1.
 /* AUTHOR */
             Design and Development: Thiago Lourenço
             Site: https://www.thilourenco.dev.br
-            Twitter: @iam3c1
+            X: 
             Location: Rio de Janeiro, Brazil
             Contact: https://thilourenco.dev.br/contact
 

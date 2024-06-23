@@ -19,8 +19,8 @@ export const ProjectsSection = () => {
           <p className="w-full text-base text-gray-600 dark:text-gray-400">
             Estes são meus principais projetos que fiz desde que comecei a
             programar, alguns deles são projetos pessoais, freelancer, prática
-            ou afim de teste. Se você quiser ver absolutamente todos os meus
-            projetos vá para o meu{' '}
+            seguindo tutorial e blogs. Se você quiser ver absolutamente todos os
+            meus projetos vá para o meu{' '}
             <a
               href={myGithub}
               target="_blank"

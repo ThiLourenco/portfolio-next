@@ -41,7 +41,6 @@ export const skills = [
       'Docker',
       'TypeORM',
       'Prisma',
-      'JWT',
     ],
   },
   {

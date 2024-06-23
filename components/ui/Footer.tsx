@@ -2,6 +2,16 @@ import Link from 'next/link'
 import { AnimationContainer } from '../utils'
 import { ExternalLink } from './'
 
+function Badge(props: any) {
+  return (
+    <a
+      {...props}
+      target="_blank"
+      className="inline-flex items-center rounded border border-neutral-200 bg-neutral-50 p-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100"
+    />
+  )
+}
+
 export const Footer = () => {
   const today = new Date()
   return (
@@ -160,6 +170,25 @@ export const Footer = () => {
         >
           Thiago Lourenço
         </a>
+      </span>
+      <span className="dark:text-zinc-400 dark:hover:text-zinc-100 text-gray-500 hover:text-gray-600 transition-colors text-1xl leading-tight text-center mb-5">
+        Hosted by vercel{' '}
+        <Badge href="https://vercel.com/home">
+          <svg
+            className="h-4 w-4"
+            viewBox="0 0 256 222"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid"
+          >
+            <g>
+              <polygon
+                fill="#000000"
+                points="128 0 256 221.705007 0 221.705007"
+              ></polygon>
+            </g>
+          </svg>
+        </Badge>
       </span>
     </footer>
   )

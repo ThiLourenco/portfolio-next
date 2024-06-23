@@ -6,7 +6,7 @@ import {
   ShowSkills,
   TitleSectionPageContainer,
 } from '../utils'
-import { CurrentTimeLineExp } from '../content'
+import { CurrentFavTech, CurrentTimeLineExp } from '../content'
 import { skills } from '../utils/skill'
 
 export const AboutSection = () => {
@@ -15,15 +15,16 @@ export const AboutSection = () => {
       <div className="w-full flex flex-col gap-6">
         <TitleSectionPageContainer title="Sobre mim" />
 
+        <CurrentFavTech />
+
         <AnimationContainer customClassName="w-full flex flex-col gap-5 mb-8">
           <p className="text-base text-gray-600 dark:text-gray-400">
-            Olá, me chamo Thiago Lourenço, sou estudante do curso de engenharia
-            de software e desenvolvedor full-stack JavaScript, sou completamente
-            apaixonado por tecnologias e pela forma que podemos utiliza-lá para
-            melhorar a nossa qualidade de vida. Me tornei um entusiasta com a
-            transformação da web e busco sempre a construção de uma solução web
-            rápida e eficiente, nos tempos vagos procuro sempre aprender coisas
-            novas buscando sempre o próximo nível.
+            Olá, me chamo Thiago Lourenço, sou completamente apaixonado por
+            tecnologias e pela forma que podemos utiliza-lá para melhorar a
+            nossa qualidade de vida. Me tornei um entusiasta com a transformação
+            da web e busco sempre a construção de uma solução web rápida e
+            eficiente, nos tempos vagos procuro sempre aprender coisas novas
+            buscando sempre o próximo nível.
           </p>
         </AnimationContainer>
 
@@ -35,10 +36,7 @@ export const AboutSection = () => {
           </h2>
 
           <p className="text-base text-gray-600 dark:text-gray-400">
-            Abaixo listo algumas tecnologias com as quais já desenvolvi, comecei
-            a programar há cerca de 3 anos. Embora o escopo do desenvolvimento
-            web seja amplo, fiquei muito interessado e resolvi focar no
-            desenvolvimento backend e banco de dados.
+            Abaixo listo algumas tecnologias com as quais já trabalhei.
           </p>
 
           <div className="flex flex-col items-start gap-3 mt-3">
@@ -64,11 +62,6 @@ export const AboutSection = () => {
           <p className="text-base text-gray-600 dark:text-gray-400">
             Tenho interesses em aprender sobre a web3 com o desenvolvimento
             Blockchain e Inteligência Artificial (AI).
-          </p>
-
-          <p className="text-base text-gray-600 dark:text-gray-400">
-            Por enquanto decidi que vou me envolver em cada uma das coisas que
-            quero aprender para poder descobrir qual me agrada mais.
           </p>
         </AnimationContainer>
       </div>

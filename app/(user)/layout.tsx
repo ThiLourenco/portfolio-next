@@ -1,13 +1,6 @@
 import '../../styles/globals.css'
 import { Providers } from '../providers'
-import {
-  // Inter,
-  // Montserrat,
-  // Open_Sans,
-  // DM_Sans,
-  // Lato,
-  Poppins,
-} from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import { Header, Footer } from '@/components/ui'
 import { ReactNode, Suspense } from 'react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
@@ -51,15 +44,6 @@ export const metadata = {
       width: 400,
       height: 300,
     },
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: meta.og_title,
-    description: meta.description,
-    siteId: '1613712013590405122',
-    creator: '@iam3c1',
-    creatorId: '1613712013590405122',
-    images: ['https://thilourenco.dev.br/static/images/og-image.png'],
   },
   metadataBase: new URL('https://thilourenco.dev.br'),
   alternates: {

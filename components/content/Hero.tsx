@@ -50,8 +50,9 @@ export const Hero = () => {
       <AnimationContainer customClassName="w-[80px] sm:w-[176px] relative mb-6 lg:mb-0">
         <Image
           alt="Thiago Lourenço"
-          height={176}
-          width={176}
+          height={400}
+          width={500}
+          quality={100}
           src="/thiago-bw.jpeg"
           priority
           className="rounded-3xl filter grayscale hover:grayscale-0 transition ease"

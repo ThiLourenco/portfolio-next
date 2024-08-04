@@ -5,6 +5,7 @@ import { useMediaQuery } from '@mantine/hooks'
 import { createStyles, Paper, Title, useMantineTheme } from '@mantine/core'
 import { AnimationContainer } from '../utils'
 import { ExternalLink } from '../ui'
+import Link from 'next/link'
 
 const useStyles = createStyles((theme: any) => ({
   card: {
@@ -167,16 +168,13 @@ export const FavProjects = () => {
       </h2>
 
       <p className="text-base text-gray-600 dark:text-gray-400 mb-10 text-start">
-        Destaco esses projetos por serem mais completos, para visualizar todos
-        os meus projetos acesse meu{' '}
-        <a
-          href={myGithub}
-          target="_blank"
-          rel="noopener noreferrer"
+        Para visualizar mais acesse meus {' '}
+        <Link
+          href={"/projects"}
           className="hover:text-black dark:hover:text-white hover:underline transition-all ease"
         >
-          <b>github</b>
-        </a>
+          <b>projetos</b>
+        </Link>
         .
       </p>
 

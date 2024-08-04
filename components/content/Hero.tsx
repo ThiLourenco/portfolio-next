@@ -9,8 +9,8 @@ export const Hero = () => {
           Thiago Lourenço
         </h1>
 
-        <h2 className="dark:bg-gradient-to-b dark:from-white dark:to-neutral-700 bg-gradient-to-b from-neutral-700 to-neutral-400 text-transparent bg-clip-text flex items-center gap-2 text-1xl lg:text-1xl mb-8 mx-auto lg:mx-0">
-          <span className="tracking-tight">Software Developer</span>
+        <h2 className="dark:bg-gradient-to-b dark:from-white dark:to-neutral-700 bg-gradient-to-b from-neutral-700 to-neutral-500 text-transparent bg-clip-text flex items-center gap-2 text-1xl lg:text-1xl mb-8 mx-auto lg:mx-0">
+          <span className="tracking-tight">Software Enginner</span>
           <svg
             stroke="currentColor"
             className="w-6 h-6"
@@ -43,7 +43,7 @@ export const Hero = () => {
         </h2>
 
         <p className="relative after:absolute after:bg-neutral-400 after:bottom-0 after:left-0 after:h-px after:w-full after:origin-bottom-right after:scale-x-0 hover:after:origin-bottom-left hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300 text-base text-center lg:text-start mb-5 lg:mb-0 text-gray-600 dark:text-gray-400 mx-auto lg:mx-0  dark:bg-gradient-to-b dark:from-white dark:to-neutral-700 bg-gradient-to-b from-neutral-900 to-neutral-900  text-transparent bg-clip-text flex items-center gap-2 text-1xl lg:text-1xl">
-          <span className="text-neutral-400">building the future</span>
+          <span className="text-neutral-500">building the future</span>
         </p>
       </AnimationContainer>
 

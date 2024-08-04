@@ -28,21 +28,21 @@ CONGRATULATIONS, you looked at my humans.txt !!
                                                 
 
 thx for coming by!
+Other level
 by 3c1.                                                 
                                                   
-
 ────────────────────────────────────────────────────────────────────────────────
 ────────────────────────────────────────────────────────────────────────────────
 
 /* AUTHOR */
             Design and Development: Thiago Lourenço
             Site: https://www.thilourenco.dev.br
-            X: 
+            linkedin: https://linkedin.com/in/thilourenco
             Location: Rio de Janeiro, Brazil
             Contact: https://thilourenco.dev.br/contact
 
 /* SITE */
-            Last update: 29/03/2024
+            Last update: 04/08/2024
             Built with: Next.js 14,Typescript,Tailwindcss,Shadcn-UI 
             Hosted by: Vercel 
             Language: Portuguese - PT-br

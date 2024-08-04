@@ -175,7 +175,7 @@ export const Footer = () => {
         Hosted by vercel{' '}
         <Badge href="https://vercel.com/home">
           <svg
-            className="h-4 w-4"
+            className="h-4 w-4 "
             viewBox="0 0 256 222"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"

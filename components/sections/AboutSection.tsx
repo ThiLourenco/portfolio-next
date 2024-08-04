@@ -28,6 +28,16 @@ export const AboutSection = () => {
           </p>
         </AnimationContainer>
 
+        <AnimationContainer customClassName="w-full flex flex-col gap-5">
+          <h2 className="font-normal text-2xl md:text-2xl tracking-tight mb-2 text-black dark:text-white text-start">
+            Interesses
+          </h2>
+
+          <p className="text-base text-gray-600 dark:text-gray-400">
+            Web3 com o desenvolvimento Blockchain e automação com inteligência artificial (IA).
+          </p>
+        </AnimationContainer>
+
         <CurrentTimeLineExp />
 
         <AnimationContainer customClassName="w-full flex flex-col gap-5 mb-8">
@@ -52,17 +62,6 @@ export const AboutSection = () => {
               </div>
             ))}
           </div>
-        </AnimationContainer>
-
-        <AnimationContainer customClassName="w-full flex flex-col gap-5">
-          <h2 className="font-normal text-2xl md:text-2xl tracking-tight mb-2 text-black dark:text-white text-start">
-            Interesses
-          </h2>
-
-          <p className="text-base text-gray-600 dark:text-gray-400">
-            Tenho interesses em aprender sobre a web3 com o desenvolvimento
-            Blockchain e Inteligência Artificial (AI).
-          </p>
         </AnimationContainer>
       </div>
     </SectionContainer>

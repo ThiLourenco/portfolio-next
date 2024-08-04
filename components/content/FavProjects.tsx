@@ -148,8 +148,6 @@ const favProjects = [
   },
 ]
 
-const myGithub = 'https://github.com/thilourenco'
-
 export const FavProjects = () => {
   const theme = useMantineTheme()
 
@@ -168,14 +166,13 @@ export const FavProjects = () => {
       </h2>
 
       <p className="text-base text-gray-600 dark:text-gray-400 mb-10 text-start">
-        Para visualizar mais acesse meus {' '}
+        Para visualizar mais acesse meus{' '}
         <Link
-          href={"/projects"}
+          href={'/projects'}
           className="hover:text-black dark:hover:text-white hover:underline transition-all ease"
         >
           <b>projetos</b>
         </Link>
-        .
       </p>
 
       <Carousel

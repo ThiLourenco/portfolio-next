@@ -32,9 +32,9 @@ export const AboutSection = () => {
           <h2 className="font-normal text-2xl md:text-2xl tracking-tight mb-2 text-black dark:text-white text-start">
             Interesses
           </h2>
-
           <p className="text-base text-gray-600 dark:text-gray-400">
-            Web3 com o desenvolvimento Blockchain e automação com inteligência artificial (IA).
+            Web3 com o desenvolvimento Blockchain e automação com inteligência
+            artificial (IA).
           </p>
         </AnimationContainer>
 

@@ -17,6 +17,14 @@ const allProjectsInfo = [
   },
   {
     id: '2',
+    title: 'polls-backend',
+    des: 'Backend do sistema de enquetes',
+    category: 'nodejs - typescript - fastify - prisma - zod - ioredis',
+    repo: 'https://github.com/ThiLourenco/polls-backend',
+    link: 'https://github.com/ThiLourenco/polls-backend',
+  },
+  {
+    id: '3',
     title: 'Store 88',
     des: 'E-commerce moderno com integração com a plataforma de processamento de pagamento Stripe.',
     category: 'nextjs - typescript - tailwindcss - stripe',
@@ -24,7 +32,7 @@ const allProjectsInfo = [
     link: 'https://e-commerce-thilourenco.vercel.app/',
   },
   {
-    id: '3',
+    id: '4',
     title: 'Rentalx',
     des: 'Backend em Node.js usando princípios SOLID.',
     category: 'nodejs - typescript',
@@ -32,7 +40,7 @@ const allProjectsInfo = [
     link: 'https://github.com/ThiLourenco/rentalx',
   },
   {
-    id: '4',
+    id: '5',
     title: 'Serviço de notificação',
     des: 'Microsserviço - Serviço de notificação desenvolvido em NestJS e Prisma ORM.',
     category: 'nodejs - nestJS - typescript - react',
@@ -40,7 +48,7 @@ const allProjectsInfo = [
     link: 'https://github.com/ThiLourenco/notification-service',
   },
   {
-    id: '5',
+    id: '6',
     title: 'Pitu',
     des: 'Pitu é um micro-SaaS simples, mas eficiente para encurtar links e URLs.',
     category: 'nodejs - typescript - react',
@@ -48,7 +56,7 @@ const allProjectsInfo = [
     link: 'https://github.com/ThiLourenco/pitu',
   },
   {
-    id: '6',
+    id: '7',
     title: 'Habits',
     des: 'Aplicação fullstack para registro de hábitos diários.',
     category: 'react - react-native - nodejs - express',
@@ -56,7 +64,7 @@ const allProjectsInfo = [
     link: 'https://github.com/ThiLourenco/habit',
   },
   {
-    id: '7',
+    id: '8',
     title: 'Rocket Help',
     des: 'A aplicação para gerenciar em tempo real solicitações de manutenção e suporte a equipamentos, desenvolvido com Expo, Typescript e Firebase.',
     category: 'nodejs - react - react-native - typescript',
@@ -64,7 +72,7 @@ const allProjectsInfo = [
     link: 'https://github.com/ThiLourenco/rockethelp',
   },
   {
-    id: '8',
+    id: '9',
     title: 'Chat JS',
     des: 'Chat multiplataforma usando CLI (interface de linha de comando).',
     category: 'javascript - nodejs - cli',
@@ -72,7 +80,7 @@ const allProjectsInfo = [
     link: 'https://www.npmjs.com/package/@thidotl17/hacker-chat-client',
   },
   {
-    id: '9',
+    id: '10',
     title: 'Coffee Delivery',
     des: 'E-commerce para realizar pedidos de café.',
     category: 'typescript - react  - React-hook-form - Zod',
@@ -80,7 +88,7 @@ const allProjectsInfo = [
     link: 'https://coffee-delivery-thilourenco.vercel.app/',
   },
   {
-    id: '10',
+    id: '11',
     title: '30 Day Vanilla JS',
     des: 'Desafio JS Vanilla de 30 dias.',
     category: 'javascript',
@@ -88,7 +96,7 @@ const allProjectsInfo = [
     link: 'https://thilourenco.github.io/JS30days/',
   },
   {
-    id: '11',
+    id: '12',
     title: 'Dev Finance',
     des: 'Aplicação de controle financeiro com persistência de dados no Local Storage.',
     category: 'javascript',
@@ -96,7 +104,7 @@ const allProjectsInfo = [
     link: 'https://thilourenco.github.io/app-finance/',
   },
   {
-    id: '12',
+    id: '13',
     title: 'DoctorCare',
     des: 'DoctorCare é uma página institucional no formato One Page, responsiva, para usar em diversos tipos de micros, pequenas e médias empresas.',
     category: 'javascript',
@@ -104,7 +112,7 @@ const allProjectsInfo = [
     link: 'https://thilourenco.github.io/doctor-care/',
   },
   {
-    id: '13',
+    id: '14',
     title: 'Blog',
     des: 'Blog desenvolvido em React.js consumindo a API do Github onde retorna as postagem através de "issues" do Github. ',
     category: 'react - styled-components - typescript',
@@ -112,7 +120,7 @@ const allProjectsInfo = [
     link: 'https://blog-thilourenco.vercel.app/',
   },
   {
-    id: '14',
+    id: '15',
     title: 'Ignite Lab React',
     des: 'Uma plataforma para assistir videoaulas online.',
     category: 'react - typescript - graphql - headless CMS',

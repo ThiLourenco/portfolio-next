@@ -17,7 +17,7 @@ const allProjectsInfo = [
   },
   {
     id: '2',
-    title: 'polls-backend',
+    title: 'Polls-backend',
     des: 'Backend do sistema de enquetes',
     category: 'nodejs - typescript - fastify - prisma - zod - ioredis',
     repo: 'https://github.com/ThiLourenco/polls-backend',

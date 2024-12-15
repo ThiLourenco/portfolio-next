@@ -148,8 +148,7 @@ const favProjects = [
   },
   {
     id: 4,
-    image:
-      'https://thilourenco.dev.br/static/images/miles-ai.png',
+    image: 'https://thilourenco.dev.br/static/images/miles-ai.png',
     title: '',
     repo: 'https://github.com/ThiLourenco/chat-ia',
     link: 'https://chat-ia-dun.vercel.app/',

@@ -17,7 +17,12 @@ export const ProjectsSection = () => {
 
         <AnimationContainer customClassName="w-full flex flex-col gap-5 mb-8">
           <p className="w-full text-base text-justify text-gray-600 dark:text-gray-400">
-          Aqui estão destacados alguns dos projetos mais relevantes que desenvolvi desde o início da minha trajetória na programação. Eles incluem iniciativas pessoais, trabalhos freelance e projetos realizados a partir de estudos em tutoriais e conteúdos especializados. Para conferir os projetos públicos, acesse meu perfil no GitHub:{' '}
+            Aqui estão destacados alguns dos projetos mais relevantes que
+            desenvolvi desde o início da minha trajetória na programação. Eles
+            incluem iniciativas pessoais, trabalhos freelance e projetos
+            realizados a partir de estudos em tutoriais e conteúdos
+            especializados. Para conferir os projetos públicos, acesse meu
+            perfil no GitHub:{' '}
             <a
               href={myGithub}
               target="_blank"

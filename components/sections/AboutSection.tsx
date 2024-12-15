@@ -19,7 +19,12 @@ export const AboutSection = () => {
 
         <AnimationContainer customClassName="w-full flex flex-col gap-5 mb-8">
           <p className="text-base text-gray-600 text-justify dark:text-gray-400">
-          Olá, sou Thiago Lourenço, um apaixonado por tecnologia e pelo seu potencial de transformar e melhorar a qualidade de vida das pessoas. Sou um entusiasta da evolução da web e tenho como objetivo desenvolver soluções web rápidas, eficientes e inovadoras. Nos meus momentos livres, estou constantemente explorando novos aprendizados e desafios, sempre em busca do próximo nível.
+            Olá, sou Thiago Lourenço, um apaixonado por tecnologia e pelo seu
+            potencial de transformar e melhorar a qualidade de vida das pessoas.
+            Sou um entusiasta da evolução da web e tenho como objetivo
+            desenvolver soluções web rápidas, eficientes e inovadoras. Nos meus
+            momentos livres, estou constantemente explorando novos aprendizados
+            e desafios, sempre em busca do próximo nível.
           </p>
         </AnimationContainer>
 

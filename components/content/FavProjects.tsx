@@ -146,6 +146,14 @@ const favProjects = [
     repo: 'https://github.com/ThiLourenco/habit',
     link: '',
   },
+  {
+    id: 4,
+    image:
+      'https://portfolio-next-thilourenco.vercel.app/static/images/store.png',
+    title: '',
+    repo: 'https://github.com/ThiLourenco/chat-ia',
+    link: 'https://chat-ia-dun.vercel.app/',
+  },
 ]
 
 export const FavProjects = () => {

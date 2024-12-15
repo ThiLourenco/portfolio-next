@@ -1,4 +1,4 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import { AnimationContainer } from '../utils'
 
 export const Hero = () => {
@@ -47,7 +47,7 @@ export const Hero = () => {
         </p>
       </AnimationContainer>
 
-      <AnimationContainer customClassName="w-[80px] sm:w-[176px] relative mb-6 lg:mb-0">
+      {/* <AnimationContainer customClassName="w-[80px] sm:w-[176px] relative mb-6 lg:mb-0">
         <Image
           alt="Thiago Lourenço"
           height={400}
@@ -57,7 +57,7 @@ export const Hero = () => {
           priority
           className="rounded-3xl filter grayscale hover:grayscale-0 transition ease"
         />
-      </AnimationContainer>
+      </AnimationContainer> */}
     </div>
   )
 }

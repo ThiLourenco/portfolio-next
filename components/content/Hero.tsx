@@ -48,7 +48,7 @@ export const Hero = () => {
         </p>
       </AnimationContainer>
 
-       <AnimationContainer customClassName="w-[80px] sm:w-[176px] relative mb-6 lg:mb-0">
+      <AnimationContainer customClassName="w-[80px] sm:w-[176px] relative mb-6 lg:mb-0">
         <Image
           alt="Thiago Lourenço"
           height={400}

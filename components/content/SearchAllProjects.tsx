@@ -8,6 +8,14 @@ import Link from 'next/link'
 
 const allProjectsInfo = [
   {
+    id: '0',
+    title: 'ChatBot Miles Davis',
+    des: 'Chat para integração com AI',
+    category: 'nextjs - typescript',
+    repo: 'https://github.com/ThiLourenco/miles_davis',
+    link: 'https://github.com/ThiLourenco/miles_davis',
+  },
+  {
     id: '1',
     title: 'Delivery Server',
     des: 'Backend em Node.js de uma aplicação de delivery',

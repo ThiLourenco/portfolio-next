@@ -6,6 +6,7 @@ import { createStyles, Paper, Title, useMantineTheme } from '@mantine/core'
 import { AnimationContainer } from '../utils'
 import { ExternalLink } from '../ui'
 import Link from 'next/link'
+import { favProjects } from '@/types/projects'
 
 const useStyles = createStyles((theme: any) => ({
   card: {
@@ -120,40 +121,6 @@ const Card = ({ id, image, title, repo, link }: CardProps) => {
     </Paper>
   )
 }
-
-const favProjects = [
-  {
-    id: 1,
-    image:
-      'https://portfolio-next-thilourenco.vercel.app/static/images/store.png',
-    title: '',
-    repo: 'https://github.com/ThiLourenco/e-commerce',
-    link: 'https://e-commerce-thilourenco.vercel.app/',
-  },
-  {
-    id: 2,
-    image:
-      'https://thilourenco.dev.br/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2FgCv97gwMRJaTLuqmjn3y&w=640&q=100',
-    title: '',
-    repo: 'https://github.com/ThiLourenco/rentalx',
-    link: '',
-  },
-  {
-    id: 3,
-    image:
-      'https://thilourenco.dev.br/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2Fx2ctlyrgTRC91wCSK0dj&w=640&q=100',
-    title: '',
-    repo: 'https://github.com/ThiLourenco/habit',
-    link: '',
-  },
-  {
-    id: 4,
-    image: 'https://thilourenco.dev.br/static/images/miles-ai.png',
-    title: '',
-    repo: 'https://github.com/ThiLourenco/chat-ia',
-    link: 'https://chat-ia-dun.vercel.app/',
-  },
-]
 
 export const FavProjects = () => {
   const theme = useMantineTheme()

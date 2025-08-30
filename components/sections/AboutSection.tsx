@@ -7,7 +7,7 @@ import {
   TitleSectionPageContainer,
 } from '../utils'
 import { CurrentFavTech, CurrentTimeLineExp } from '../content'
-import { skills } from '../utils/skill'
+import { skills } from '../../types/skill'
 
 export const AboutSection = () => {
   return (
@@ -33,8 +33,7 @@ export const AboutSection = () => {
             Interesses
           </h2>
           <p className="text-base text-gray-600 dark:text-gray-400">
-            Web3 com o desenvolvimento Blockchain e automação com inteligência
-            artificial (IA).
+            Business Intelligence (BI), Automação e Inteligência artificial(IA).
           </p>
         </AnimationContainer>
 

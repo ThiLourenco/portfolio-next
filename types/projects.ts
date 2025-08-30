@@ -149,7 +149,7 @@ export const favProjects = [
     {
         id: 2,
         image:
-            'https://thilourenco.dev.br/_next/image?url=https%3A%2F%2Fmedia.graphassets.com%2Fx2ctlyrgTRC91wCSK0dj&w=640&q=100',
+            'https://thilourenco.dev.br/static/images/rinha.png',
         title: '',
         repo: 'https://github.com/ThiLourenco/rinha-de-backend-2025',
         link: '',

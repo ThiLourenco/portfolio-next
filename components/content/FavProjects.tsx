@@ -10,14 +10,14 @@ import { favProjects } from '@/types/projects'
 
 const useStyles = createStyles((theme: any) => ({
   card: {
-    height: 350,
+    height: 280,
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-between',
     alignItems: 'flex-center',
     padding: '10px',
     backgroundSize: 'cover',
-    backgroundPosition: 'center',
+    backgroundPosition: 'left',
   },
 
   title: {

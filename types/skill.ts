@@ -35,10 +35,10 @@ export const skills = [
   },
   {
     title: 'Infraestrutura',
-    techs: ['AWS', 'GCP', 'Vercel'],
+    techs: ['OCI', 'AWS', 'GCP', 'Vercel'],
   },
   {
     title: 'Outros',
-    techs: ['VS Code', 'Notion', 'Git', 'GitHub'],
+    techs: ['VS Code', 'Notion', 'Jira','Git', 'GitHub'],
   },
 ]

@@ -172,7 +172,6 @@ export const Footer = () => {
         </a>
       </span>
       <span className="dark:text-zinc-400 dark:hover:text-zinc-100 text-gray-500 hover:text-gray-600 transition-colors text-1xl leading-tight text-center mb-5">
-        
         <Badge href="https://vercel.com/home">
           <svg
             className="h-4 w-4 "

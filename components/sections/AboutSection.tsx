@@ -31,12 +31,12 @@ export const AboutSection = () => {
           <h2 className="font-normal text-2xl md:text-2xl tracking-tight mb-2 text-black dark:text-white text-start">
             Interesses
           </h2>
-            <ul className="text-base text-gray-600 dark:text-gray-400">
-             <li>BI aplicado a tomada de decisão</li>
-              <li>Automação de processos repetitivos</li>
-              <li>Integrações entre sistemas</li>
-              <li>IA aplicada a produtos e dados</li>
-            </ul>
+          <ul className="text-base text-gray-600 dark:text-gray-400">
+            <li>BI aplicado a tomada de decisão</li>
+            <li>Automação de processos repetitivos</li>
+            <li>Integrações entre sistemas</li>
+            <li>IA aplicada a produtos e dados</li>
+          </ul>
         </AnimationContainer>
 
         <CurrentTimeLineExp />

@@ -1,6 +1,14 @@
 export const allProjectsInfo = [
     {
         id: '0',
+        title: 'IFC Viewer',
+        des: 'O sistema permite carregar e visualizar modelos 3D diretamente no navegador, sem a necessidade de softwares especializados instalados localmente.',
+        category: 'nodejs - three.js - web-IFC',
+        repo: 'https://github.com/ThiLourenco/ifc_viewer_demo',
+        link: 'https://github.com/ThiLourenco/ifc_viewer_demo',
+    },
+    {
+        id: '1',
         title: 'Rinha backend 2025 - payment processor',
         des: 'Participação da rinha backend 2025.',
         category: 'nodejs - redis - bullmq - nginx',
@@ -8,7 +16,7 @@ export const allProjectsInfo = [
         link: 'https://github.com/zanfranceschi/rinha-de-backend-2025',
     },
     {
-        id: '1',
+        id: '2',
         title: 'ChatBot Miles Davis',
         des: 'Chat para integração com AI',
         category: 'nextjs - typescript',
@@ -16,7 +24,7 @@ export const allProjectsInfo = [
         link: 'https://github.com/ThiLourenco/miles_davis',
     },
     {
-        id: '2',
+        id: '3',
         title: 'Delivery Server',
         des: 'Backend em Node.js de uma aplicação de delivery',
         category: 'nodejs - typescript - express - prisma - jest',
@@ -24,7 +32,7 @@ export const allProjectsInfo = [
         link: 'https://github.com/ThiLourenco/delivery-backend',
     },
     {
-        id: '3',
+        id: '4',
         title: 'Polls-backend',
         des: 'Backend do sistema de enquetes',
         category: 'nodejs - typescript - fastify - prisma - zod - ioredis',
@@ -32,7 +40,7 @@ export const allProjectsInfo = [
         link: 'https://github.com/ThiLourenco/polls-backend',
     },
     {
-        id: '4',
+        id: '5',
         title: 'Store 88',
         des: 'E-commerce moderno com integração com a plataforma de processamento de pagamento Stripe.',
         category: 'nextjs - typescript - tailwindcss - stripe',
@@ -40,7 +48,7 @@ export const allProjectsInfo = [
         link: 'https://e-commerce-thilourenco.vercel.app/',
     },
     {
-        id: '5',
+        id: '6',
         title: 'Rentalx',
         des: 'Backend em Node.js usando princípios SOLID.',
         category: 'nodejs - typescript',
@@ -48,7 +56,7 @@ export const allProjectsInfo = [
         link: 'https://github.com/ThiLourenco/rentalx',
     },
     {
-        id: '6',
+        id: '7',
         title: 'Serviço de notificação',
         des: 'Microsserviço - Serviço de notificação desenvolvido em NestJS e Prisma ORM.',
         category: 'nodejs - nestJS - typescript - react',
@@ -56,7 +64,7 @@ export const allProjectsInfo = [
         link: 'https://github.com/ThiLourenco/notification-service',
     },
     {
-        id: '7',
+        id: '8',
         title: 'Pitu',
         des: 'Pitu é um micro-SaaS simples, mas eficiente para encurtar links e URLs.',
         category: 'nodejs - typescript - react',
@@ -64,7 +72,7 @@ export const allProjectsInfo = [
         link: 'https://github.com/ThiLourenco/pitu',
     },
     {
-        id: '8',
+        id: '9',
         title: 'Habits',
         des: 'Aplicação fullstack para registro de hábitos diários.',
         category: 'react - react-native - nodejs - express',
@@ -72,7 +80,7 @@ export const allProjectsInfo = [
         link: 'https://github.com/ThiLourenco/habit',
     },
     {
-        id: '9',
+        id: '10',
         title: 'Rocket Help',
         des: 'A aplicação para gerenciar em tempo real solicitações de manutenção e suporte a equipamentos, desenvolvido com Expo, Typescript e Firebase.',
         category: 'nodejs - react - react-native - typescript',
@@ -80,20 +88,12 @@ export const allProjectsInfo = [
         link: 'https://github.com/ThiLourenco/rockethelp',
     },
     {
-        id: '10',
+        id: '11',
         title: 'Chat JS',
         des: 'Chat multiplataforma usando CLI (interface de linha de comando).',
         category: 'javascript - nodejs - cli',
         repo: 'https://github.com/ThiLourenco/chat-js',
         link: 'https://www.npmjs.com/package/@thidotl17/hacker-chat-client',
-    },
-    {
-        id: '11',
-        title: 'Coffee Delivery',
-        des: 'E-commerce para realizar pedidos de café.',
-        category: 'typescript - react  - React-hook-form - Zod',
-        repo: 'https://github.com/ThiLourenco/coffee-delivery',
-        link: 'https://coffee-delivery-thilourenco.vercel.app/',
     },
     {
         id: '12',
@@ -126,15 +126,7 @@ export const allProjectsInfo = [
         category: 'react - styled-components - typescript',
         repo: 'https://github.com/ThiLourenco/blog',
         link: 'https://blog-thilourenco.vercel.app/',
-    },
-    {
-        id: '16',
-        title: 'Ignite Lab React',
-        des: 'Uma plataforma para assistir videoaulas online.',
-        category: 'react - typescript - graphql - headless CMS',
-        repo: 'https://github.com/ThiLourenco/ignite-lab-react',
-        link: 'https://ignite-lab-react-thilourenco.vercel.app/',
-    },
+    }
 ]
 
 export const favProjects = [

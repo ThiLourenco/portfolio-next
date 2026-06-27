@@ -57,8 +57,5 @@
     "singleQuote": true,
     "tabWidth": 2,
     "trailingComma": "none"
-  },
-  "engines": {
-    "node": ">=22.18.0"
   }
 }
